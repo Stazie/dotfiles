@@ -1,6 +1,6 @@
 #!/bin/bash
 echo "Setup the vim config"
-mv ~/.vimrc ~/.vimrc.bak
+mv ~/.vimrc ~/.vimrc.bak &> /dev/null
 ln -i ./vimrc ~/.vimrc
-mkdir ~/.vim/plugin
+mkdir ~/.vim/plugin &> /dev/null
 echo "" >>  ~/.vim/plugin/plugins.vim
