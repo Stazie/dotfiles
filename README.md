@@ -1,2 +1,4 @@
 #dotfiles
 .vimrc
+.bashrc
+.zshrc
