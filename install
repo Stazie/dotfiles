@@ -4,3 +4,5 @@ mv ~/.vimrc ~/.vimrc.bak &> /dev/null
 ln -i ./vimrc ~/.vimrc
 mkdir ~/.vim/plugin &> /dev/null
 echo "" >>  ~/.vim/plugin/plugins.vim
+echo "Setup the bash config"
+ln -i ./bashrc ~/.bashr
