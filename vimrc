@@ -1,7 +1,3 @@
-" 
-" Vim settings for @mscoutermarsh
-"
-
 " Settings in this file may depend on plugins, so let's install them first.
 " Not to be confused with the contents of ~/.vim/plugin/* which are
 " configuration options for each plugin and automatically loaded by Vim.
@@ -62,7 +58,8 @@ set sidescrolloff=10  " Leave 10 characters of horizontal buffer when scrolling
 " Colors & Formatting
 "-------------------------------------------------------------------------------
 
-colorscheme solarized
+colorscheme dracula
+syntax on
 set background=dark
 
 " Showcase comments in italics
