@@ -85,6 +85,9 @@ if has('nvim')
   " Fix vim-tmux-navigator <C-h> https://git.io/vS5QH
   nmap <BS> :<C-u>TmuxNavigateLeft<CR>
 endif
+
+" Shortcuts
+
 "-----------------------------------------------------------
 " Plugins
 "-----------------------------------------------------------
